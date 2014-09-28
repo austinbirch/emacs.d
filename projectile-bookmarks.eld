@@ -1,0 +1,1 @@
+("~/Development/ColdEmailer/ce-worker/" "~/.emacs.d/")

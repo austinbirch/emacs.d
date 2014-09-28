@@ -1,12 +1,10 @@
 ;;; simpleclip-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads (simpleclip-paste simpleclip-cut simpleclip-copy
-;;;;;;  simpleclip-mode simpleclip-set-contents simpleclip-get-contents
-;;;;;;  simpleclip-keys simpleclip) "simpleclip" "simpleclip.el"
-;;;;;;  (21376 65338 0 0))
+;;;### (autoloads nil "simpleclip" "simpleclip.el" (21544 16257 0
+;;;;;;  0))
 ;;; Generated autoloads from simpleclip.el
 
 (let ((loads (get 'simpleclip 'custom-loads))) (if (member '"simpleclip" loads) nil (put 'simpleclip 'custom-loads (cons '"simpleclip" loads))))
@@ -62,16 +60,9 @@ Paste the contents of the system clipboard at the point.
 
 ;;;***
 
-;;;### (autoloads nil nil ("simpleclip-pkg.el") (21376 65338 340285
-;;;;;;  0))
-
-;;;***
-
-(provide 'simpleclip-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; simpleclip-autoloads.el ends here

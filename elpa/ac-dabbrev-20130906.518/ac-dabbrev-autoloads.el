@@ -1,10 +1,10 @@
 ;;; ac-dabbrev-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads (ac-dabbrev-get-candidates) "ac-dabbrev" "ac-dabbrev.el"
-;;;;;;  (21377 490 0 0))
+;;;### (autoloads nil "ac-dabbrev" "ac-dabbrev.el" (21544 14476 0
+;;;;;;  0))
 ;;; Generated autoloads from ac-dabbrev.el
 
 (autoload 'ac-dabbrev-get-candidates "ac-dabbrev" "\
@@ -17,16 +17,9 @@ Source for dabbrev")
 
 ;;;***
 
-;;;### (autoloads nil nil ("ac-dabbrev-pkg.el") (21377 490 518855
-;;;;;;  0))
-
-;;;***
-
-(provide 'ac-dabbrev-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; ac-dabbrev-autoloads.el ends here
